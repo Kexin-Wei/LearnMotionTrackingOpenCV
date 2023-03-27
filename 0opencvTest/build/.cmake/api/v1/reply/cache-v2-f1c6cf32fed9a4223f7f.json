@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/gitrepo/5opencvAlgo/51OpticalFlow/build"
+			"value" : "/gitrepo/0opencvTest/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,11 +155,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/g++"
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -283,11 +283,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc"
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/gitrepo/5opencvAlgo/51OpticalFlow"
+			"value" : "/gitrepo/0opencvTest"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "optical_flow"
+			"value" : "opencv_example"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1158,7 +1158,7 @@
 			"value" : "/usr/local/lib/cmake/opencv4"
 		},
 		{
-			"name" : "optical_flow_BINARY_DIR",
+			"name" : "opencv_example_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1167,10 +1167,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/gitrepo/5opencvAlgo/51OpticalFlow/build"
+			"value" : "/gitrepo/0opencvTest/build"
 		},
 		{
-			"name" : "optical_flow_SOURCE_DIR",
+			"name" : "opencv_example_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1179,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/gitrepo/5opencvAlgo/51OpticalFlow"
+			"value" : "/gitrepo/0opencvTest"
 		}
 	],
 	"kind" : "cache",

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/gitrepo/5opencvAlgo/50opencvTest/main.cpp
+/gitrepo/0opencvTest/main.cpp
 iostream
 -
 opencv2/core.hpp

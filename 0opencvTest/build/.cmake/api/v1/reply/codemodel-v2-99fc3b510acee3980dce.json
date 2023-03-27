@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/gitrepo/5opencvAlgo/50opencvTest/build",
-		"source" : "/gitrepo/5opencvAlgo/50opencvTest"
+		"build" : "/gitrepo/0opencvTest/build",
+		"source" : "/gitrepo/0opencvTest"
 	},
 	"version" : 
 	{

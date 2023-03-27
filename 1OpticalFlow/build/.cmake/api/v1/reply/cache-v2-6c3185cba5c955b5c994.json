@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/gitrepo/5opencvAlgo/50opencvTest/build"
+			"value" : "/gitrepo/1OpticalFlow/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -418,6 +418,18 @@
 			"value" : "CMAKE_DLLTOOL-NOTFOUND"
 		},
 		{
+			"name" : "CMAKE_EDIT_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cache edit program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/ccmake"
+		},
+		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
 			"properties" : 
 			[
@@ -595,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/gitrepo/5opencvAlgo/50opencvTest"
+			"value" : "/gitrepo/1OpticalFlow"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -839,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "opencv_example"
+			"value" : "optical_flow"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1146,7 +1158,7 @@
 			"value" : "/usr/local/lib/cmake/opencv4"
 		},
 		{
-			"name" : "opencv_example_BINARY_DIR",
+			"name" : "optical_flow_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1155,10 +1167,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/gitrepo/5opencvAlgo/50opencvTest/build"
+			"value" : "/gitrepo/1OpticalFlow/build"
 		},
 		{
-			"name" : "opencv_example_SOURCE_DIR",
+			"name" : "optical_flow_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1167,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/gitrepo/5opencvAlgo/50opencvTest"
+			"value" : "/gitrepo/1OpticalFlow"
 		}
 	],
 	"kind" : "cache",

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/gitrepo/5opencvAlgo/50opencvTest/main.cpp" "/gitrepo/5opencvAlgo/50opencvTest/build/CMakeFiles/opencv_example.dir/main.cpp.o"
+  "/gitrepo/0opencvTest/main.cpp" "/gitrepo/0opencvTest/build/CMakeFiles/opencv_example.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/gitrepo/5opencvAlgo/51OpticalFlow/build",
-		"source" : "/gitrepo/5opencvAlgo/51OpticalFlow"
+		"build" : "/gitrepo/1OpticalFlow/build",
+		"source" : "/gitrepo/1OpticalFlow"
 	},
 	"version" : 
 	{

@@ -709,8 +709,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/gitrepo/5opencvAlgo/50opencvTest/build",
-		"source" : "/gitrepo/5opencvAlgo/50opencvTest"
+		"build" : "/gitrepo/1OpticalFlow/build",
+		"source" : "/gitrepo/1OpticalFlow"
 	},
 	"version" : 
 	{

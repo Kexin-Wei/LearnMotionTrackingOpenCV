@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/objdetect/objdetect.hpp>
@@ -45,6 +46,34 @@ void openaiTest(cv::Mat image1, cv::Mat image2){
     cv::imwrite("flow_openaiGPT4.jpg", flow_color);
 }
 
+void testCalcOpticalFlowPyrLK(cv::Mat image1, cv::Mat image2){
+    // calculate the optical flow of two images using calcOpticalFlowPyrLK
+    // Define vector to hold tracked feature points
+    std::vector<Point2f> prevPoints, nextPoints;
+
+    // Define parameters for feature detection and tracking
+    std::vector<uchar> status;
+    std::vector<float> err;
+    Size winSize = Size(21, 21);
+    TermCriteria termcrit = TermCriteria(TermCriteria::COUNT|TermCriteria::EPS, 30, 0.01);
+
+    // Detect feature points in the first frame
+    cv::goodFeaturesToTrack(prevGray, prevPoints, 500, 0.01, 10, Mat(), 3, false, 0.04);
+
+   // Calculate optical flow using Lucas-Kanade method
+    cv::calcOpticalFlowPyrLK(prevGray, nextGray, prevPoints, nextPoints, status, err, winSize, 3, termcrit, 0, 0.001);
+
+    // Draw lines between tracked feature points in the second frame
+    for (int i = 0; i < prevPoints.size(); i++)
+    {
+        if (status[i] == 1)
+        {
+            line(nextFrame, prevPoints[i], nextPoints[i], Scalar(0, 255, 0), 2, LINE_AA);
+        }
+    }
+    cv::imwrite("flow_calcOpticalFlowPyrLK.jpg", nextFrame);
+}
+
 // write a main function
 int main(int argc, char** argv)
 {
@@ -66,6 +95,7 @@ int main(int argc, char** argv)
 
     copliotTest(image1,image2);
     openaiTest(image1,image2);
+    testCalcOpticalFlowPyrLK(image1,image2);
 
     // wait for the key to be pressed
     cv::waitKey();

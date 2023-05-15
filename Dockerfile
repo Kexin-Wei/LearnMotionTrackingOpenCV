@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Kristin Kexin Wei <wkx611@outlook.com>
+#
+# SPDX-License-Identifier: MIT
+
 # Use the official Ubuntu image as the base
 FROM ubuntu:20.04
 

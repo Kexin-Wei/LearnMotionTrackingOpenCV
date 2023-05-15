@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 Kristin Kexin Wei <wkx611@outlook.com>
+
+SPDX-License-Identifier: MIT
+-->
+
 Learn Image Processing Algorithms Using OpenCV
 ===
 # 1. test Opencv in Docker container

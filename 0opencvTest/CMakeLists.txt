@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Kristin Kexin Wei <wkx611@outlook.com>
+#
+# SPDX-License-Identifier: MIT
+
 cmake_minimum_required(VERSION 3.1)
 
 # Project name

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Kristin Kexin Wei <wkx611@outlook.com>
+//
+// SPDX-License-Identifier: MIT
+
 #include <iostream>
 #include <vector>
 #include <opencv2/highgui.hpp>

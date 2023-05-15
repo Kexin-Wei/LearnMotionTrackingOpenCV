@@ -1,3 +1,0 @@
-/gitrepo/1OpticalFlow/build/CMakeFiles/rebuild_cache.dir
-/gitrepo/1OpticalFlow/build/CMakeFiles/edit_cache.dir
-/gitrepo/1OpticalFlow/build/CMakeFiles/optical_flow.dir

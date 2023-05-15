@@ -1,3 +1,0 @@
-/gitrepo/0opencvTest/build/CMakeFiles/rebuild_cache.dir
-/gitrepo/0opencvTest/build/CMakeFiles/edit_cache.dir
-/gitrepo/0opencvTest/build/CMakeFiles/opencv_example.dir
